@@ -1,0 +1,47 @@
+@font-face { 
+	font-family: Jetbrains-Mono; 
+	src: url("JetBrainsMono-Regular.ttf"); 
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Jetbrains-Mono;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/*max-width: 38rem;*/
+	min-height: 100vh;
+	background-color: #0e1b3b;
+	color: #e6c2c6;
+}
+
+#head {
+	position: fixed;
+	top: 100px;
+}
+
+::selection {
+	color: #D66E95;
+	background-color: #d3a7ac;
+}
+
+p, ul{
+	text-indent: 50px;
+	list-style-position: inside;
+}
+
+a, a:active, a:visited {
+  color: #5695D1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0d9dc;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #88cfac;
+	padding: 1rem;
+	text-align: left;
+}
